@@ -19,6 +19,9 @@ cd result_img/shoe_person/cfg/weights
 wget -O yolov3_last.weights "https://www.dropbox.com/s/ypdps7fldbzl5mz/yolov3_last.weights?dl=1"
 ```
 ---
+# 使用docker pull
+- https://cloud.docker.com/repository/docker/abc1233108/darknet_sneaker
+---
 # Yolo-v3 and Yolo-v2 for Windows and Linux
 ### (neural network for object detection) - Tensor Cores can be used on [Linux](https://github.com/AlexeyAB/darknet#how-to-compile-on-linux) and [Windows](https://github.com/AlexeyAB/darknet#how-to-compile-on-windows-using-vcpkg)
 
