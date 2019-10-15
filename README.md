@@ -1,3 +1,24 @@
+# Ubuntu 16.04 環境，架設yolov3
+```console
+apt-get -y update
+apt-get -y upgrade
+apt-get install -y wget
+apt-get install -y build-essential
+apt-get install -y cmake git libgtk2.0-dev pkg-config libavcodec-dev libavformat-dev libswscale-dev
+apt-get install -y libopencv-dev
+apt install -y g++-5
+apt install -y gcc-5
+
+git clone https://github.com/AlexeyAB/darknet
+  
+cd darknet
+
+mkdir -p result_img/shoe_person/yolo1
+mkdir -p result_img/shoe_person/cfg/weights
+cd result_img/shoe_person/cfg/weights
+wget -O yolov3_last.weights "https://www.dropbox.com/s/ypdps7fldbzl5mz/yolov3_last.weights?dl=1"
+```
+---
 # Yolo-v3 and Yolo-v2 for Windows and Linux
 ### (neural network for object detection) - Tensor Cores can be used on [Linux](https://github.com/AlexeyAB/darknet#how-to-compile-on-linux) and [Windows](https://github.com/AlexeyAB/darknet#how-to-compile-on-windows-using-vcpkg)
 
